@@ -1,5 +1,39 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+# 📝 MyTasks - Görev Yönetim Uygulaması
+
+**MyTasks**, günlük, haftalık ve aylık görevlerini düzenlemeni, takip etmeni ve tamamladıklarını istatistik olarak görüntülemeni sağlayan modern ve sade bir görev yönetim uygulamasıdır.
+
+Görevler **MongoDB veritabanında** saklanır. Uygulama backend API endpoints yapısı ile çalışır.
+
+
+## 🚀 Özellikler
+
+| Özellik | Açıklama |
+|--------|----------|
+| ✅ Görev ekleme / silme / düzenleme | Görevler üzerinde tam kontrol |
+| 🗂 Görev Gruplama | **Günlük / Haftalık / Aylık** kategorileri |
+| 🎯 Görev Tamamlama | İşaretle ve tamamlananlar otomatik kaydedilir |
+| 📊 İstatistik & Grafikler | Tamamlanma oranlarını ve günlük sayım grafiğini gör |
+| 🪟 Modal Yapısı | Tamamlanan görevleri modal pencerede listeleyebilme |
+| 🌙 Modern UI | Tailwind CSS + Custom UI tasarım |
+| 🧠 Zustand Store | Global state yönetimi |
+| 🗄 MongoDB + API Routes | Veriler kalıcı olarak sunucu tarafında saklanır |
+
+---
+
+## 🛠 Kullanılan Teknolojiler
+
+| Teknoloji / Araç | Kullanım Amacı |
+|------------------|----------------|
+| **Next.js (App Router)** | UI yapısı ve sayfa yönetimi |
+| **TypeScript**|
+| **Zustand** | Global state yönetimi |
+| **TailwindCSS** | Responsive ve modern UI tasarım |
+| **Lucide Icons** | UI ikonları |
+| **Recharts** | Veri görselleştirme (Tamamlanma grafiği) |
+
+
 ## Getting Started
 
 First, run the development server:
