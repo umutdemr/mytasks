@@ -57,7 +57,7 @@ export default function Home() {
   };
 
   return (
-    <main className="max-w-7xl mx-auto pt-2 fade-in">
+    <main className="p-11 space-y-6 md:ml-24 max-w-5xl mx-auto">
       <h1 className="text-3xl font-bold mb-3">Görevlerim</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-[260px_1fr] gap-10">

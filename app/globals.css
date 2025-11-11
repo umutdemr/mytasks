@@ -46,7 +46,6 @@
   top: 0;
   left: 0;
   z-index: 1000; 
-  transform: translateX(-100%);
 }
 
 @media (min-width: 1025px) {

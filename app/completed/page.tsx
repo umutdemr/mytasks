@@ -58,7 +58,7 @@ export default function CompletedPage() {
   }, [completedTodos]);
 
   return (
-    <div className="p-4 sm:p-6 fade-in space-y-6"> 
+    <div className="p-11 sm:p-6 fade-in space-y-6 md:ml-24"> 
       <h1 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-center">
         Tamamlanan Görevler
       </h1>

@@ -8,7 +8,12 @@ import { List, CheckCircle, ChevronLeft, ChevronRight } from "lucide-react";
 export default function Sidebar() {
   const pathname = usePathname();
   const [collapsed, setCollapsed] = useState(false);
-
+  const handleNavigation = () => {
+    if (!collapsed) {
+        setCollapsed(true);
+    }
+  };
+  
   useEffect(() => {
     const saved = localStorage.getItem("sidebar-collapsed");
     if (saved) setCollapsed(saved === "true");
@@ -49,6 +54,7 @@ export default function Sidebar() {
             key={item.href}
             href={item.href}
             className={`sidebar-link ${pathname === item.href ? "active" : ""}`}
+            onClick={handleNavigation}
           >
             {item.icon}
             {!collapsed && <span>{item.label}</span>}
